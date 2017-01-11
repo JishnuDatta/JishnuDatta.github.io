@@ -2,7 +2,7 @@
 
 /*Reset all padding/margin values, also show boxes for debugging */
 * {
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 255, .3);
   margin: 0;
   padding: 0;
 }
