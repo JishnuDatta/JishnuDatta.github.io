@@ -2,15 +2,17 @@
 
 /*Reset all padding/margin values, also show boxes for debugging */
 * {
- 
+
   margin: 0;
   padding: 0;
   /* Making content inside the boxes auto sized*/
   /*box-sizing: border-box;*/
 }
 
+body { margin: 0; padding: 0; zoom: 1; }
+
 nav {
-  background-color: Maroon;
+  background-color: #9A566F;
   position: fixed;
   text-align: center;
   top: 0;
@@ -22,8 +24,7 @@ a{
   color: #FFFFFF;
   display: inline-block;
   font-family: 'Unica One', cursive;
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 1.5rem;
   text-transform: uppercase;
   text-decoration: none;
   /*Cant think of a way to make this scale currently*/
@@ -33,19 +34,19 @@ a{
 
 a:hover {
   background-color: #FFFFFF;
-  color: Maroon;
+  color: #9A566F;
 }
 
 .active {
   /*Darker maroon color*/
-    background-color: #600000;
+    background-color: #924365;
 }
 
-.content{
+.pageone{
    /*border: 1px solid rgba(0,0,0,1);  */
-  margin: 0 auto; 
+  margin: 0 auto;
   margin-top: 150px;
-  width:30%;
+  width:40%;
   text-align: center;
   background-color: rgba(100, 100, 100, 0.9);
   padding: 40px;
@@ -53,14 +54,15 @@ a:hover {
 
 h1.title{
   font-family: 'Unica One', cursive;
-  font-size: 4em;
+  font-size: 2em;
   text-transform: uppercase;
   color: maroon;
+  margin: 15px 0;
 }
 
 img.logo{
-  width: 80%;
-  height: 80%; 
+  width: 10%;
+  height: 10%;
   display: block;
   margin: 0px auto;
   border-radius: 100%;
@@ -68,13 +70,14 @@ img.logo{
 
 p{
   font-family: 'Vollkorn', serif;
-  font-size: 1.2em;
+  font-size: 1em;
   color: white;
+  line-height: 150%;
 }
 
 body{
-  background-image: url("../images/homebackgroundlandscape.jpg");
+/*  background-image: url("../images/homebackgroundlandscape.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: cover;*/
 }
