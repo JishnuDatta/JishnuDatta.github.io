@@ -1,22 +1,24 @@
 /* Welcome to style.css, in this file I place all css code for my website*/
 /*Created by Jishnu Datta*/
-
-/*------------------------------ GENERAL INFO ------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/*------------------------------ GENERAL INFO ------------------------------------*/
 
 * {
   /* Making content inside the boxes auto sized*/
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 
   /*Reset the margins of default html/css*/
   margin: 0;
   padding: 0;
+    /*border: 1px solid #FFFFFF;*/
 }
 
 body {
   background: #161f20;
+  /*background-color: #1F2D32;*/
 }
-
-/*------------------------------ NAVBAR INFO ------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/*------------------------------ NAVBAR INFO -------------------------------------*/
 
 .navbar > nav {
   background-color: #9A566F;
@@ -49,19 +51,21 @@ body {
     background-color: #924365;
 }
 
-/*------------------------------ CONTENT INFO ------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/*------------------------------ CONTENT INFO ------------------------------------*/
 
 .content{
-  /*border: 5px solid rgba(0,0,0,1);*/
+  /*border: 1px solid #0000FF;*/
   margin: 0 auto;
-  /*margin-top: 60px;*/
-  width:50%;
-  max-width: 600px;
-  /*text-align: ;*/
-  /*background-color: #1F2D32;*/
+  width: 100%
 }
 
 .page{
+  width:50%;
+  max-width: 600px;
+  min-width: 200px;
+
+
   text-align:justify;
   padding: 40px;
   border-radius: 4%;
@@ -88,7 +92,7 @@ body {
   word-spacing: auto;
 }
 
-.content img{
+img.profile{
   width: 40%;
   height: 40%;
   display: block;
@@ -98,4 +102,31 @@ body {
   margin-bottom: 20px;
 }
 
+/*--------------------------------------------------------------------------------*/
 /*------------------------------ SPECIFIC PAGE INFO ------------------------------*/
+
+/*------------------------------- Photos --------------------------------------*/
+
+.page.photography{
+  width: 50%;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+img.photo{
+  max-width: 100%;
+  height: auto;
+  border-radius: 4%;
+  display: block;
+  margin: auto;
+}
+
+.desc{
+  font-family: 'Unica One', cursive;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 4px;
+}
