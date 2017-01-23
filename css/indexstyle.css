@@ -116,3 +116,7 @@ a.contactpara{
 img.contact{
   border:none;
 }
+div.LI-profile-badge{
+  margin: auto;
+  text-align: center;
+}
