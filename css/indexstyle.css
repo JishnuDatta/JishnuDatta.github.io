@@ -71,8 +71,6 @@ body {
   font-size: 1.2em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  /*text-align: center;*/
-  color: #DE1C39;
   color: #B7A974;
 }
 
@@ -80,12 +78,11 @@ body {
   font-family: 'Vollkorn', serif;
   font-size: 1em;
   color: white;
-  line-height: 200%;
+  line-height: 2;
   word-spacing: auto;
 }
 img.profile{
   width: 40%;
-  height: 40%;
   display: block;
   margin: auto;
   border-radius: 100%;
@@ -94,15 +91,12 @@ img.profile{
 }
 /*--------------------------------------------------------------------------------*/
 /*------------------------------ SPECIFIC PAGE INFO ------------------------------*/
-.page.photography{
-  width: 50%;
-  padding: 0;
+.photography{
   border: none;
   background: none;
 }
 img.photo{
   max-width: 100%;
-  height: auto;
   border-radius: 4%;
   display: block;
   margin: auto;
@@ -121,20 +115,14 @@ p.contactpara{
   margin-bottom: 20px;
 }
 p.ratings{
-  width: 40%;
-  /*float:left;*/
-  display:inline-block;
-}
-p.stars{
-  width: 40%;
-  /*float: right;*/
+  width: 48%;
   display:inline-block;
 }
 a.contactpara{
   font-family: 'Vollkorn', serif;
   font-size: 1em;
   color: white;
-  line-height: 150%;
+  line-height: 1.5;
   word-spacing: auto;
   text-align: center;
   display:block;
