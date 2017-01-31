@@ -42,7 +42,6 @@ body {
   width: 100%
 }
 .page{
-  /*width: 800px;*/
   width: 45%;
   max-width: 1500px;
   min-width: 500px;
@@ -50,21 +49,38 @@ body {
   padding: 40px;
   border-radius: 4%;
   margin: 60px auto;
-  border: 4px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   background-color: #3A4C58;
 }
+
+.one{
+  border-width: 0px;
+}
+
 .content h1{
   font-family: 'Unica One', cursive;
   font-size: 2em;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   text-align: center;
+  color: #ED6F6F;
 }
+
+.content h3{
+  font-family: 'Unica One', cursive;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  /*text-align: center;*/
+  color: #DE1C39;
+  color: #B7A974;
+}
+
 .content p{
   font-family: 'Vollkorn', serif;
   font-size: 1em;
   color: white;
-  line-height: 150%;
+  line-height: 200%;
   word-spacing: auto;
 }
 img.profile{
@@ -104,6 +120,16 @@ p.contactpara{
   text-align: center;
   margin-bottom: 20px;
 }
+p.ratings{
+  width: 40%;
+  /*float:left;*/
+  display:inline-block;
+}
+p.stars{
+  width: 40%;
+  /*float: right;*/
+  display:inline-block;
+}
 a.contactpara{
   font-family: 'Vollkorn', serif;
   font-size: 1em;
@@ -115,8 +141,4 @@ a.contactpara{
 }
 img.contact{
   border:none;
-}
-div.LI-profile-badge{
-  margin: auto;
-  text-align: center;
 }
