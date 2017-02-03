@@ -81,6 +81,15 @@ body {
   line-height: 2;
   word-spacing: auto;
 }
+
+.content a{
+  font-family: 'Vollkorn', serif;
+  font-size: 1em;
+  color: white;
+  line-height: 2;
+  word-spacing: auto;
+}
+
 img.profile{
   width: 40%;
   display: block;
