@@ -47,7 +47,7 @@ body {
   min-width: 500px;
   text-align:justify;
   padding: 40px;
-  border-radius: 4%;
+  border-radius: 10px;
   margin: 60px auto;
   border: 2px solid #FFFFFF;
   background-color: #3A4C58;
@@ -106,7 +106,7 @@ img.profile{
 }
 img.photo{
   max-width: 100%;
-  border-radius: 4%;
+  border-radius: 10px;
   display: block;
   margin: auto;
 }
